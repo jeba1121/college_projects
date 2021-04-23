@@ -1,0 +1,313 @@
+unning /home/ubuntu/workspace/Project1/jeopardyDice.cpp
+Welcome to Jeopardy Dice!
+
+It is now human's turn
+
+Do you want to roll a dice(Y/N)?
+y
+You rolled a 3
+Your turn total is 3
+Do you want to roll again(Y/N)?
+y
+You rolled a 5
+Your turn total is 3
+computer: 0
+human: 3
+
+It is now computer's turn
+
+Computer rolled a  5
+Computer turn total is 0
+computer: 0
+human: 3
+
+It is now human's turn
+
+Do you want to roll a dice(Y/N)?
+y
+You rolled a 2
+Your turn total is 0
+computer: 0
+human: 3
+
+It is now computer's turn
+
+Computer rolled a  2
+Computer turn total is 0
+computer: 0
+human: 3
+
+It is now human's turn
+
+Do you want to roll a dice(Y/N)?
+y
+You rolled a 2
+Your turn total is 0
+computer: 0
+human: 3
+
+It is now computer's turn
+
+Computer rolled a  2
+Computer turn total is 0
+computer: 0
+human: 3
+
+It is now human's turn
+
+Do you want to roll a dice(Y/N)?
+y
+You rolled a 2
+Your turn total is 0
+computer: 0
+human: 3
+
+It is now computer's turn
+
+Computer rolled a  2
+Computer turn total is 0
+computer: 0
+human: 3
+
+It is now human's turn
+
+Do you want to roll a dice(Y/N)?
+y
+You rolled a 5
+Your turn total is 0
+computer: 0
+human: 3
+
+It is now computer's turn
+
+Computer rolled a  5
+Computer turn total is 0
+computer: 0
+human: 3
+
+It is now human's turn
+
+Do you want to roll a dice(Y/N)?
+y
+You rolled a 5
+Your turn total is 0
+computer: 0
+human: 3
+
+It is now computer's turn
+
+Computer rolled a  5
+Computer turn total is 0
+computer: 0
+human: 3
+
+It is now human's turn
+
+Do you want to roll a dice(Y/N)?
+y
+You rolled a 2
+Your turn total is 0
+computer: 0
+human: 3
+
+It is now computer's turn
+
+Computer rolled a  2
+Computer turn total is 0
+computer: 0
+human: 3
+
+It is now human's turn
+
+Do you want to roll a dice(Y/N)?
+y
+You rolled a 2
+Your turn total is 0
+computer: 0
+human: 3
+
+It is now computer's turn
+
+Computer rolled a  2
+Computer turn total is 0
+computer: 0
+human: 3
+
+It is now human's turn
+
+Do you want to roll a dice(Y/N)?
+y
+You rolled a 2
+Your turn total is 0
+computer: 0
+human: 3
+
+It is now computer's turn
+
+Computer rolled a  2
+Computer turn total is 0
+computer: 0
+human: 3
+
+It is now human's turn
+
+Do you want to roll a dice(Y/N)?
+y
+You rolled a 2
+Your turn total is 0
+computer: 0
+human: 3
+
+It is now computer's turn
+
+Computer rolled a  2
+Computer turn total is 0
+computer: 0
+human: 3
+
+It is now human's turn
+
+Do you want to roll a dice(Y/N)?
+y
+You rolled a 2
+Your turn total is 0
+computer: 0
+human: 3
+
+It is now computer's turn
+
+Computer rolled a  2
+Computer turn total is 0
+computer: 0
+human: 3
+
+It is now human's turn
+
+Do you want to roll a dice(Y/N)?
+y
+You rolled a 3
+Your turn total is 3
+Do you want to roll again(Y/N)?
+y
+You rolled a 3
+Your turn total is 6
+Do you want to roll again(Y/N)?
+y
+You rolled a 3
+Your turn total is 9
+Do you want to roll again(Y/N)?
+y
+You rolled a 5
+Your turn total is 9
+computer: 0
+human: 12
+
+It is now computer's turn
+
+Computer rolled a  5
+Computer turn total is 0
+computer: 0
+human: 12
+
+It is now human's turn
+
+Do you want to roll a dice(Y/N)?
+y
+You rolled a 3
+Your turn total is 3
+Do you want to roll again(Y/N)?
+y
+You rolled a 4
+Your turn total is 18
+Do you want to roll again[Y/N]?
+y
+You rolled a 4
+Your turn total is 33
+Do you want to roll again[Y/N]?
+y
+You rolled a 4
+Your turn total is 48
+Do you want to roll again[Y/N]?
+y
+You rolled a 5
+Your turn total is 48
+computer: 0
+human: 60
+
+It is now computer's turn
+
+Computer rolled a  5
+Computer turn total is 0
+computer: 0
+human: 60
+
+It is now human's turn
+
+Do you want to roll a dice(Y/N)?
+y
+You rolled a 2
+Your turn total is 0
+computer: 0
+human: 60
+
+It is now computer's turn
+
+Computer rolled a  2
+Computer turn total is 0
+computer: 0
+human: 60
+
+It is now human's turn
+
+Do you want to roll a dice(Y/N)?
+y
+You rolled a 2
+Your turn total is 0
+computer: 0
+human: 60
+
+It is now computer's turn
+
+Computer rolled a  2
+Computer turn total is 0
+computer: 0
+human: 60
+
+It is now human's turn
+
+Do you want to roll a dice(Y/N)?
+y
+You rolled a 2
+Your turn total is 0
+computer: 0
+human: 60
+
+It is now computer's turn
+
+Computer rolled a  2
+Computer turn total is 0
+computer: 0
+human: 60
+
+It is now human's turn
+
+Do you want to roll a dice(Y/N)?
+y
+You rolled a 4
+Your turn total is 15
+Do you want to roll again[Y/N]?
+y
+You rolled a 3
+Your turn total is 18
+Do you want to roll again(Y/N)?
+y
+You rolled a 4
+Your turn total is 33
+Do you want to roll again[Y/N]?
+y
+You rolled a 2
+Your turn total is 33
+computer: 0
+human: 93
+
+Congratulations! human won this round of Jeopardy Dice!

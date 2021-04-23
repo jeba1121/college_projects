@@ -1,0 +1,67 @@
+Running /home/ubuntu/workspace/Project1/jeopardyDice.cpp
+Welcome to Jeopardy Dice!
+
+It is now human's turn
+
+Do you want to roll a dice(Y/N)?
+y
+You rolled a 5
+Your turn total is 0
+computer: 0
+human: 0
+
+It is now computer's turn
+
+Computer rolled a  5
+Computer turn total is 0
+computer: 0
+human: 0
+
+It is now human's turn
+
+Do you want to roll a dice(Y/N)?
+y
+You rolled a 6
+Your turn total is 6
+Do you want to roll again(Y/N)?
+y
+You rolled a 6
+Your turn total is 12
+Do you want to roll again(Y/N)?
+y
+You rolled a 6
+Your turn total is 18
+Do you want to roll again(Y/N)?
+y
+You rolled a 4
+Your turn total is 33
+Do you want to roll again[Y/N]?
+y
+You rolled a 4
+Your turn total is 48
+Do you want to roll again[Y/N]?
+y
+You rolled a 3
+Your turn total is 51
+Do you want to roll again(Y/N)?
+y
+You rolled a 3
+Your turn total is 54
+Do you want to roll again(Y/N)?
+y
+You rolled a 6
+Your turn total is 60
+Do you want to roll again(Y/N)?
+y
+You rolled a 6
+Your turn total is 66
+Do you want to roll again(Y/N)?
+y
+You rolled a 4
+Your turn total is 81
+Do you want to roll again[Y/N]?
+y
+computer: 0
+human: 81
+
+Congratulations! human won this round of Jeopardy Dice!

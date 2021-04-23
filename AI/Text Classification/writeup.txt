@@ -1,0 +1,37 @@
+1. Probability and Classification
+
+        To calculate the probability I created a count of both positive and negative words. If the class label was positive, I had a positive count dictionary keep track of all the words in that feature and the count of each word. I also kept track of positive and negative class counts (how many times we had a positive/negative label). If a word was in the positive dictionary and not the negative dictionary (or vice versa), I made sure to add it to each dictionary with a count of 0. This was to account for laplace smoothing to calculate the probability of each word given its class. 
+        The probability was (the count of the word in the positive or negative dictionary + 1) divided by (the class count + how many words were in the entire vocabulary). I then calculated the positive and negative class probabilities by dividing the class count by the sum of the count of both classes. 
+        Because the score is the probability of the class multiplied by each word given its class, I calculated my positive and negative probability values in my score function. By looping through the given data and the words present in that data, I compared it to my trained dictionary of both positive and negative words. If the word present in the data was also present in my dictionary, I pulled its respective probability of the word given its class and multiplied it by the class probability. I repeated this with the next word in the given data. If the word wasn't present in the dictionary, I just multiplied the probability by 1. 
+        After initializing the score, I used its probabilities to determine whether or not the given data would be positive or negative. If the probability for positive was higher than negative, I classified the data to be positive. If it was a tie or less than negative, I classified the data to be negative. 
+    
+  
+2. When a word is present in one class but missing in the other class?
+
+        When a word is present in one class but missing in the other class, I would add the missing word to the class with a 0 count.
+        
+3. When a word is missing in both class?
+
+        When a word is missing in both class, I ommitted it's probability. If the word doesn't exist, the probability given the word wouldn't exist. Multiplying the probabilites by 1 allowed me to focus on the words that were trained. 
+        
+4. Recall, Precision, F1 score on dev_file.txt with for sentiment analysis:
+
+        Precision Unimproved:  0.6956521739130435
+        Recall Unimproved:  0.5925925925925926
+        F1 Unimproved:  0.6399999999999999
+        
+5. Recall, Precision, F1 score on dev_file.txt for improved sentiment analysis:
+
+        Precision Improved:  0.6896551724137931
+        Recall Improved:  0.7407407407407407
+        F1 Improved:  0.7142857142857143
+        
+6. Preprocessing:
+        
+        I took a look at the features and realized that there were many unneccessary words in the dev_file for training. I could see that removing these words would improve performance so I added a list of common stop words. I filtered out my features with these stop words so that my data for classification would be more relevant. To effectively do that, I took my tokens and converted everything to lower-case and removed punctuation. This way the count of my features would be consisten and would note consider words with capitalization or puncuation (even if it is the same word) as unique features. 
+        
+7. Performance
+
+        The preprocessed data, the improved sentiment analysis, demonstrates better performance. Increased recall indicates that the algorithm returns most of the relevant results (more than regular sentiment analysis). Becuase precision has stayed the same, I can infer that most of the newer predicted labels are more correct in the improved sentiment analysis when compared to the training labels. There is a higher turn of positive results. 
+        The F1 score being higher for the improved model can also demonstrate that our improved model has lower false positives and false negatives, meaning we are more correctly identiying false classifications.
+        Eliminating unnecessary words in feature processing and making sure features are accurate (no repeating words with punctuation or capitalization) significantly increased the classification performance of the model.This intuition was correct and makes sense logically in terms of increasing a model performance by limiting noise. 

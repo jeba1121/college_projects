@@ -1,0 +1,3 @@
+Willy Wonka,0,0,0
+General Oomp,100,100,100
+King Doompa,200,200,200

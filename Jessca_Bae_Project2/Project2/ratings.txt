@@ -1,0 +1,4 @@
+Ninja,5,0,0,3
+Myth,5,0,0,2
+Sphyer,1,1,2,0
+Daequan,0,0,0,0

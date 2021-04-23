@@ -1,0 +1,10 @@
+1) To find the probabilities, I first processed the sentence argument. I tokenized the sentence and replace all unknown vocabulary with the <UNK> token. I created the n-grams list with the processed tokens according to the n_order: 1 for unigram and 2 for bigram. I then looped through all the tokens in my n-grams list where I found the n_count and n-1_count by using a counter of the token. I then calculated the probability by summing the product of the probability of each token. 
+    The formulas I used were different for each n-gram. If we weren't using laplace smoothing, then the probability of the unigram would be the count(token)/len(vocab). The probility of the bigram would be n_count/n-1_count. Using laplace smoothing, the probability would be n_count+1/n-1_count + len(vocab). 
+
+2) The advantage of this method is that we can account for more unkown words for our testing data. A disadvantage to this method is that we could overfit our training data. If we alter the minimum frequency to a higher count, then we would account for less unkown words for when we test our data that could possibly lead to underfitting. Better ways to handle out-of-vocabulary words might include machine learning algorithms where more training data and the frequency of actual unkown words can be kept track of. 
+
+3) The best perplexity of the text data for unigram, bi-gram and trigram language models that I tested was the trigram model. (See Hw2-Im.py or Homework 2 Language Models Bae.ipynb for work)
+
+4) (See terminal.jpg) in ZIP file
+    
+5) I had a lot of trouble with wrapping my head around generating sentences using the probabilities for the unigram model. I think I began to overthink generating probabilities. I think I could've definetly found a way to organize my function definitions and variables in my class better that would've helped me keep track of everything. 
